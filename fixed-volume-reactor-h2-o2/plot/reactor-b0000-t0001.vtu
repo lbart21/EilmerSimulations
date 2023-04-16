@@ -1,0 +1,220 @@
+<VTKFile type="UnstructuredGrid" byte_order="BigEndian">
+<UnstructuredGrid><Piece NumberOfPoints="9" NumberOfCells="4">
+<Points>
+ <DataArray type="Float32" NumberOfComponents="3" format="ascii">
+ 0.000000000000000000e+00 0.000000000000000000e+00 0.000000000000000000e+00
+ 4.999999888241291046e-03 0.000000000000000000e+00 0.000000000000000000e+00
+ 9.999999776482582092e-03 0.000000000000000000e+00 0.000000000000000000e+00
+ 0.000000000000000000e+00 4.999999888241291046e-03 0.000000000000000000e+00
+ 4.999999888241291046e-03 4.999999888241291046e-03 0.000000000000000000e+00
+ 9.999999776482582092e-03 4.999999888241291046e-03 0.000000000000000000e+00
+ 0.000000000000000000e+00 9.999999776482582092e-03 0.000000000000000000e+00
+ 4.999999888241291046e-03 9.999999776482582092e-03 0.000000000000000000e+00
+ 9.999999776482582092e-03 9.999999776482582092e-03 0.000000000000000000e+00
+ </DataArray>
+</Points>
+<Cells>
+ <DataArray type="Int32" Name="connectivity" format="ascii">
+ 0 1 4 3
+ 1 2 5 4
+ 3 4 7 6
+ 4 5 8 7
+ </DataArray>
+ <DataArray type="Int32" Name="offsets" format="ascii">
+ 4
+ 8
+ 12
+ 16
+ </DataArray>
+ <DataArray type="UInt8" Name="types" format="ascii">
+ 9
+ 9
+ 9
+ 9
+ </DataArray>
+</Cells>
+<CellData>
+ <DataArray Name="pos.x" type="Float32" NumberOfComponents="1" format="ascii">
+ 2.500000000000000052e-03
+ 7.500000000000000590e-03
+ 2.500000000000000052e-03
+ 7.500000000000000590e-03
+ </DataArray>
+ <DataArray Name="pos.y" type="Float32" NumberOfComponents="1" format="ascii">
+ 2.500000000000000052e-03
+ 2.500000000000000052e-03
+ 7.500000000000000590e-03
+ 7.500000000000000590e-03
+ </DataArray>
+ <DataArray Name="pos.z" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="volume" type="Float32" NumberOfComponents="1" format="ascii">
+ 2.500000000000000120e-05
+ 2.500000000000000120e-05
+ 2.500000000000000120e-05
+ 2.500000000000000120e-05
+ </DataArray>
+ <DataArray Name="rho" type="Float32" NumberOfComponents="1" format="ascii">
+ 1.093957004665115362e-01
+ 1.093957004665115362e-01
+ 1.093957004665115362e-01
+ 1.093957004665115362e-01
+ </DataArray>
+ <DataArray Name="vel.x" type="Float32" NumberOfComponents="1" format="ascii">
+ -3.942801585058264037e-12
+ -7.396838118704261656e-12
+ 8.093517661078350262e-12
+ 4.332070628896641167e-12
+ </DataArray>
+ <DataArray Name="vel.y" type="Float32" NumberOfComponents="1" format="ascii">
+ -3.942801586111377241e-12
+ 8.093517659829709818e-12
+ -7.396838114757233654e-12
+ 4.332070632630888265e-12
+ </DataArray>
+ <DataArray Name="vel.z" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="p" type="Float32" NumberOfComponents="1" format="ascii">
+ 3.039749974894895786e+04
+ 3.039749974894895422e+04
+ 3.039749974894895422e+04
+ 3.039749974894841216e+04
+ </DataArray>
+ <DataArray Name="a" type="Float32" NumberOfComponents="1" format="ascii">
+ 6.132714051114502354e+02
+ 6.132714051114503491e+02
+ 6.132714051114503491e+02
+ 6.132714051114443237e+02
+ </DataArray>
+ <DataArray Name="mu" type="Float32" NumberOfComponents="1" format="ascii">
+ 3.821463283270150812e-05
+ 3.821463283270150812e-05
+ 3.821463283270150812e-05
+ 3.821463283270150812e-05
+ </DataArray>
+ <DataArray Name="k" type="Float32" NumberOfComponents="1" format="ascii">
+ 6.041234804123033625e-02
+ 6.041234804123033625e-02
+ 6.041234804123033625e-02
+ 6.041234804123033625e-02
+ </DataArray>
+ <DataArray Name="mu_t" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="k_t" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="S" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="massf[0]-H" type="Float32" NumberOfComponents="1" format="ascii">
+ 6.663758594523648807e-13
+ 6.663758594449225776e-13
+ 6.663758594449225776e-13
+ 6.663758594415711430e-13
+ </DataArray>
+ <DataArray Name="massf[1]-H2" type="Float32" NumberOfComponents="1" format="ascii">
+ 4.999999998067512948e-03
+ 4.999999998067180748e-03
+ 4.999999998067180748e-03
+ 4.999999998064440752e-03
+ </DataArray>
+ <DataArray Name="massf[2]-O" type="Float32" NumberOfComponents="1" format="ascii">
+ 1.069923412512754808e-13
+ 1.069923412497056350e-13
+ 1.069923412497056350e-13
+ 1.069923412490156783e-13
+ </DataArray>
+ <DataArray Name="massf[3]-O2" type="Float32" NumberOfComponents="1" format="ascii">
+ 4.999999987181994766e-03
+ 4.999999987162970054e-03
+ 4.999999987162970054e-03
+ 4.999999987153639844e-03
+ </DataArray>
+ <DataArray Name="massf[4]-H2O2" type="Float32" NumberOfComponents="1" format="ascii">
+ 3.035768989554762377e-14
+ 3.035768989542374737e-14
+ 3.035768989542374737e-14
+ 3.035768989536290410e-14
+ </DataArray>
+ <DataArray Name="massf[5]-H2O" type="Float32" NumberOfComponents="1" format="ascii">
+ 9.780448708338584450e-12
+ 9.780448708212492721e-12
+ 9.780448708212492721e-12
+ 9.780448708156015026e-12
+ </DataArray>
+ <DataArray Name="massf[6]-HO2" type="Float32" NumberOfComponents="1" format="ascii">
+ 4.064249636726394243e-12
+ 4.064249636710726279e-12
+ 4.064249636710726279e-12
+ 4.064249636703133019e-12
+ </DataArray>
+ <DataArray Name="massf[7]-OH" type="Float32" NumberOfComponents="1" format="ascii">
+ 2.736549879025930693e-14
+ 2.736549878985529340e-14
+ 2.736549878985529340e-14
+ 2.736549878968156729e-14
+ </DataArray>
+ <DataArray Name="massf[8]-Ar" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="massf[9]-He" type="Float32" NumberOfComponents="1" format="ascii">
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ 0.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="massf[10]-N2" type="Float32" NumberOfComponents="1" format="ascii">
+ 9.900000000000747091e-01
+ 9.900000000000941380e-01
+ 9.900000000000941380e-01
+ 9.900000000001061284e-01
+ </DataArray>
+ <DataArray Name="dt_chem" type="Float32" NumberOfComponents="1" format="ascii">
+ -1.000000000000000000e+00
+ -1.000000000000000000e+00
+ -1.000000000000000000e+00
+ -1.000000000000000000e+00
+ </DataArray>
+ <DataArray Name="u" type="Float32" NumberOfComponents="1" format="ascii">
+ 3.887432073411967722e+05
+ 3.887432073411966558e+05
+ 3.887432073411966558e+05
+ 3.887432073411956080e+05
+ </DataArray>
+ <DataArray Name="T" type="Float32" NumberOfComponents="1" format="ascii">
+ 8.799999980911221655e+02
+ 8.799999980911235298e+02
+ 8.799999980911235298e+02
+ 8.799999980911360353e+02
+ </DataArray>
+ <DataArray Name="vel.vector" type="Float32" NumberOfComponents="3" format="ascii">
+ -3.942801380524274535e-12 -3.942801380524274535e-12 0.000000000000000000e+00
+ -7.396838350159917752e-12 8.093518043261749284e-12 0.000000000000000000e+00
+ 8.093518043261749284e-12 -7.396838350159917752e-12 0.000000000000000000e+00
+ 4.332070726448256082e-12 4.332070726448256082e-12 0.000000000000000000e+00
+ </DataArray>
+</CellData>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>
