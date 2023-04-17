@@ -21,8 +21,9 @@ equil_massf = gs.ceaSavedData["massf"]
 sum = 0.0
 for key in equil_massf.keys():
     sum += equil_massf[key]
+print("mass fraction error:", abs(1.0 - sum))
 for key in equil_massf.keys():
     equil_massf[key] /= sum
-print("Normalised equilibrium properties:", equil_massf)
+print("Normalised equilibrium mass fractions:", equil_massf)
 print("Equilibrium pressure:", gs.ceaSavedData["p"])
 print("Equilibrium temperature:", gs.ceaSavedData["T"])
